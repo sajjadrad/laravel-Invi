@@ -26,7 +26,7 @@ else
 ## Functions ##
 
 generate
-=
+==
 generate an invitation code
 - Arguments:
 	- email
@@ -36,47 +36,53 @@ generate an invitation code
 	- A jSon array of all invitation information
 
 check
-=
+===
 validate invitation code
 - Argouments:
 	- invitation code
 	- email
 - Return:
 	- Boolean
+
 status
-=
+===
 return invitation code status
 - Argouments:
 	- invitation code
 	- email
 - Return:
 	- Status :  Active,Deactive,Used,Valid,Not Exist
+
 active
-=
+===
 activate an invitation
 - Argouments:
 	- invitation code
 	- email
+
 deactive
-=
+===
 deactivate an invitation
 - Argouments:
 	- invitation code
 	- email
+
 used
-=
+==
 make an invitation used
 - Argouments:
 	- invitation code
 	- email
+
 unused
-=
+==
 make an invitation unused
 - Argouments:
 	- invitation code
 	- email
+
 delete
-=
+==
 delete an invitation
 - Argouments:
 	- invitation code
