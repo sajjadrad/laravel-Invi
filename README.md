@@ -26,58 +26,59 @@ else
 ## Functions ##
 
 generate
-===
-Arguments:
-==
+=
+generate an invitation code
+- Arguments:
 	- email
 	- expiration date : 2 year 2 month 13 day 1 hour 23 min 40 sec
 	- active
-<br>
-Return:
-	A jSon array of all invitation information
+- Return:
+	- A jSon array of all invitation information
 
-- check
+check
+=
 validate invitation code
-<br>
-Argouments:
+- Argouments:
 	- invitation code
 	- email
-<br>
-Return:
-	Boolean
-- status
+- Return:
+	- Boolean
+status
+=
 return invitation code status
-<br>
-Argouments:
+- Argouments:
 	- invitation code
 	- email
-<br>
-Return:
-	Status :  Active,Deactive,Used,Valid,Not Exist
-- active
+- Return:
+	- Status :  Active,Deactive,Used,Valid,Not Exist
+active
+=
 activate an invitation
-<br>
-Argouments:
+- Argouments:
 	- invitation code
 	- email
-- deactive
+deactive
+=
 deactivate an invitation
-<br>Argouments:
+- Argouments:
 	- invitation code
 	- email
-- used
+used
+=
 make an invitation used
-<br>Argouments:
+- Argouments:
 	- invitation code
 	- email
-- unused
+unused
+=
 make an invitation unused
-<br>Argouments:
+- Argouments:
 	- invitation code
 	- email
-- delete
+delete
+=
 delete an invitation
-<br>Argouments:
+- Argouments:
 	- invitation code
 	- email
 
