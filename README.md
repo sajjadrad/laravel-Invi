@@ -25,9 +25,10 @@ else
 
 ## Functions ##
 
-- generate
-<br>
+generate
+===
 Arguments:
+==
 	- email
 	- expiration date : 2 year 2 month 13 day 1 hour 23 min 40 sec
 	- active
