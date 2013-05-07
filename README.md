@@ -9,6 +9,11 @@ This bundle help you to make a simple invitation system for your signup or other
 - Active or deactive invite
 - Use it,unsed it or delete it
 
+## Installation ##
+add this to bundle.php:
+```php
+'invi' => array('auto' => true),
+```
 
 ## Examples ##
 
