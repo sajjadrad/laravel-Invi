@@ -25,50 +25,57 @@ else
 ## Functions ##
 
 - generate
+<br>
 Arguments:
 	- email
 	- expiration date : 2 year 2 month 13 day 1 hour 23 min 40 sec
 	- active
+<br>
 Return:
 	A jSon array of all invitation information
 
 - check
 validate invitation code
+<br>
 Argouments:
 	- invitation code
 	- email
+<br>
 Return:
 	Boolean
 - status
 return invitation code status
+<br>
 Argouments:
 	- invitation code
 	- email
+<br>
 Return:
 	Status :  Active,Deactive,Used,Valid,Not Exist
 - active
 activate an invitation
+<br>
 Argouments:
 	- invitation code
 	- email
 - deactive
 deactivate an invitation
-Argouments:
+<br>Argouments:
 	- invitation code
 	- email
 - used
 make an invitation used
-Argouments:
+<br>Argouments:
 	- invitation code
 	- email
 - unused
 make an invitation unused
-Argouments:
+<br>Argouments:
 	- invitation code
 	- email
 - delete
 delete an invitation
-Argouments:
+<br>Argouments:
 	- invitation code
 	- email
 
