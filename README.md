@@ -1,6 +1,7 @@
 # Invi Bundle for Laravel #
 
 This bundle help you to make a simple invitation system for you signup or other service.
+[http://bundles.laravel.com/bundle/Invi]
 
 ## Features ##
 - Generate invitation code with email.
