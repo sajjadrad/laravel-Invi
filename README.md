@@ -40,6 +40,15 @@ generate an invitation code
 - Return:
 	- A jSon array of all invitation information
 
+```php
+Invi::forge()->generate("example@domain.com","2 day",True); // Generate Invitation
+```
+- Output:
+
+```php
+{"code":"f22c5973ebbcca99","email":"example@domain.com","expiration":"2013-05-10 15:58:41 ","active":true,"used":"0","created_at":"2013-05-06 15:58:41","updated_at":"2013-05-06 15:58:41"}
+```
+
 check
 ===
 validate invitation code
@@ -48,6 +57,11 @@ validate invitation code
 	- email
 - Return:
 	- Boolean
+
+
+```php
+Invi::forge()->check("f22c597305eb1800","example@domain.com");
+```
 
 status
 ===
@@ -58,12 +72,20 @@ return invitation code status
 - Return:
 	- Status :  Active,Deactive,Used,Valid,Not Exist
 
+```php
+echo Invi::forge()->status("f22c597305eb1800","example@domain.com");
+```
+
 active
 ===
 activate an invitation
 - Argouments:
 	- invitation code
 	- email
+
+```php
+Invi::forge()->active("f22c597305eb1800","example@domain.com");
+```
 
 deactive
 ===
@@ -72,12 +94,20 @@ deactivate an invitation
 	- invitation code
 	- email
 
+```php
+Invi::forge()->deactive("f22c597305eb1800","example@domain.com");
+```
+
 used
 ==
 make an invitation used
 - Argouments:
 	- invitation code
 	- email
+
+```php
+Invi::forge()->used("f22c597305eb1800","example@domain.com");
+```
 
 unused
 ==
@@ -86,12 +116,20 @@ make an invitation unused
 	- invitation code
 	- email
 
+```php
+Invi::forge()->unused("f22c597305eb1800","example@domain.com");
+```
+
 delete
 ==
 delete an invitation
 - Argouments:
 	- invitation code
 	- email
+
+```php
+Invi::forge()->delete("f22c597305eb1800","example@domain.com");
+```
 
 
 ## License ##
