@@ -3,6 +3,8 @@
 This bundle help you to make a simple invitation system for your signup or other service.
 [http://bundles.laravel.com/bundle/Invi]
 
+	*** This Package is available for laravel 4 [https://github.com/sajjadrad/invi-l4] ***
+
 ## Features ##
 - Generate invitation code with email.
 - Set expiration date
